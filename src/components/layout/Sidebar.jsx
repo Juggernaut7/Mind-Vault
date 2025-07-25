@@ -2,7 +2,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useAuth } from '../Auth/AuthProvider.jsx';
+import { useAuth } from '../auth/AuthProvider.jsx';
 import Button from '../common/Button.jsx';
 
 // Import specific icons from react-icons/md

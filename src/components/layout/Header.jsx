@@ -1,6 +1,6 @@
 // src/components/layout/Header.jsx
 import React from 'react';
-import { useAuth } from '../Auth/AuthProvider'; // To get the logged-in user
+import { useAuth } from '../auth/AuthProvider'; // To get the logged-in user
 import { useTheme } from '../../hooks/useTheme'; // To potentially add theme toggle here later
 
 const Header = () => {
