@@ -1,7 +1,7 @@
 // src/pages/SettingsPage.jsx
 import React, { useState } from 'react';
 import { useTheme } from '../hooks/useTheme'; // Import our theme hook
-import { useAuth } from '../components/Auth/AuthProvider'; // To show current user
+import { useAuth } from '../components/auth/AuthProvider'; // To show current user
 import Button from '../components/common/Button.jsx';
 import Input from '../components/common/Input.jsx';
 import { db } from '../config/dbConfig'; // For potential future password change
