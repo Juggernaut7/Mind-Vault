@@ -1,7 +1,7 @@
 // src/pages/LoginPage.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../components/auth/AuthProvider.jsx';
+import { useAuth } from '../components/Auth/AuthProvider.jsx';
 import Button from '../components/common/Button.jsx';
 import Input from '../components/common/Input.jsx';
 import { db } from '../config/dbConfig.js';

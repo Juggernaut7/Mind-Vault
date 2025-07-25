@@ -8,8 +8,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Layouts & Authentication
 import AppLayout from './components/layout/AppLayout.jsx';
-// import PrivateRoute from './components/auth/PrivateRoute'; // Corrected path casing
-import PrivateRoute from './components/auth/PrivateRoute.jsx';
+import PrivateRoute from './components/Auth/PrivateRoute.jsx'; // Corrected path casing
+// import PrivateRoute from './components/Auth/PrivateRoute.jsx';
 
 // Pages
 import LandingPage from './pages/LandingPage.jsx'; // Our new landing page
