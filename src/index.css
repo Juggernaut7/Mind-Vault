@@ -1,0 +1,53 @@
+/* src/styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS variables for flexible theming (optional, but good for fine-tuning) */
+:root {
+  /* Define your base colors as CSS variables too, for use outside of Tailwind or for custom properties */
+  --color-midnight: #0A0A0E;
+  --color-steel: #4A5C6C;
+  --color-electric: #00F0FF;
+  --color-violet-glow: #8A2BE2;
+  --color-text-light: #E0E0E0;
+  --color-text-dark: #A0A0A0;
+
+  /* You could also define font variables here */
+  --font-primary: "Space Mono", monospace;
+
+  /* Global background, applied to body */
+  background-color: var(--color-midnight);
+  color: var(--color-text-light); /* Default text color */
+}
+
+/* Base styles for the entire application */
+body {
+  @apply bg-midnight text-text-light font-sans antialiased; /* Apply our custom colors and font globally */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+}
+
+/* Optional: Basic link styling */
+a {
+  @apply text-electric hover:text-electric-light transition-colors duration-200;
+}
+
+/* Optional: Scrollbar styling for a futuristic look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-midnight-700);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-steel);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-electric);
+}
