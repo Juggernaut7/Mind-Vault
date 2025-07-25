@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Layouts & Authentication
 import AppLayout from './components/layout/AppLayout.jsx';
-import PrivateRoute from './components/Auth/PrivateRoute.jsx'; // Corrected path casing
+import PrivateRoute from './components/Auth/PrivateRoute'; // Corrected path casing
 // import PrivateRoute from './components/Auth/PrivateRoute.jsx';
 
 // Pages
